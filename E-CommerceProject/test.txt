@@ -1,1 +1,13 @@
 Hello World!
+
+git commit -m what ever the message is
+
+git push origin main
+
+
+---
+//in order to make a new branch to work on (last part is branch name):
+git checkout -b adding_classes
+
+//when done
+git push origin adding_classes

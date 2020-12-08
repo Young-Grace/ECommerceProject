@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.luis.tts.ECommerce.model.Product;
 import com.luis.tts.ECommerce.service.ProductService;
 
-import lombok.Data;
 
-@Data
+
+
 @Controller
 @ControllerAdvice // This makes the `@ModelAttribute`s of this controller available to all controllers, for the navbar.
 public class MainController {
