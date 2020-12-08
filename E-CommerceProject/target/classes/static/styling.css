@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+
+body {
+  background: url(https://wolffvineyards.com/wp-content/uploads/2019/06/Vinyard-at-dawn-1280x720.jpg) no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+  background-color: #112249;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+div.jumbotron {
+	background: rgba(255,0,0,0.0);
+}
