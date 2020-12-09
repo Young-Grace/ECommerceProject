@@ -4,14 +4,55 @@
 body {
   background: url(https://wolffvineyards.com/wp-content/uploads/2019/06/Vinyard-at-dawn-1280x720.jpg) no-repeat center center; 
   background-size: cover;
-  height: 800px;
   text-align: center; 
-  background-color: #112249;
+  background-color: rgb(251, 247, 236);
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 
 
 div.jumbotron {
 	background: rgba(255,0,0,0.0);
+}
+
+h1, h2, h3, h4, p {
+	font-family: 'Castoro', serif;
+
+}
+
+.display-3 {
+	font-size: 62px;
+	font-style: italic;
+}
+
+.tagline {
+	font-family: 'Castoro', serif;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.copyright {
+	color: white;
+}
+
+.bg-light {
+    background-color: rgba(255,0,0,0.0) !important;
+
+}
+
+#products {
+	background-color: #fff;
+	padding-top: 100px;
+
+}
+
+.inner {
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+.btn {
+	margin-bottom: 200px;
 }

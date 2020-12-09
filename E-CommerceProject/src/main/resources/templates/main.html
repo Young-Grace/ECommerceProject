@@ -4,7 +4,10 @@
   
     <link href="styling.css" type="text/css" rel="stylesheet">
   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
   
   </head>
   <body>
@@ -14,17 +17,48 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
           <div class="container">
-              <h1 class="display-3">Come Tomorrow Vineyards</h1>
-              <p>Making today's dream tomorrow's reality and defining excellence since 1933. </p>
-              <p><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more &raquo;</a></p>
+              <h1 class="display-3">Sunrise Vineyards</h1>
+              <p class="tagline">"Making fine wine and spirits. Defining excellence since 1933." </p>
+              <p><a class="btn btn-success btn-sm" href="/about" role="button">Learn more &raquo;</a></p>
           </div>
       </div>
  
-      <div class="container">
-          <div class="row">
+
               <!--Fill this part in-->
-          </div>
-      </div>
+              
+              <!-- PRODUCTS HEADER -->
+              
+              
+              
+              <!-- Actual Wines -->
+              
+              <div id="products">
+              	<h2>Our Selection</h2>
+              	<h3>Donec id justo non metus auctor commodo ut quis enim.</h3>
+              	<div class="wines">
+              		<div class="inner">
+              		<img alt="" src="">
+              		<h4>Red Wine</h4>
+              		<p>Donec id justo non metus auctor commodo ut quis enim.</p>
+              	</div></div>
+              	
+              	
+              	<div class="wines">
+              		<img alt="" src="">
+              		<h4>White Wine</h4>
+              		<p>Donec id justo non metus auctor commodo ut quis enim.</p>
+              	</div>
+              	
+              	
+              	<div class="wines">
+              		<img alt="" src="">
+              		<h4>Beer</h4>
+              		<p>Donec id justo non metus auctor commodo ut quis enim.</p>
+              	</div>
+              
+              </div>
+              
+
   </main>
  
   <footer th:replace="fragments :: footer"></footer>
